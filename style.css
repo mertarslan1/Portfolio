@@ -601,7 +601,7 @@ header {
 }
 
 .portfolio_inner .p_p_d_body{
-    padding-right: 9vw;
+    padding-right: 4vw;
 }
 .portfolio_inner .image{
     width: 100%;
@@ -660,9 +660,7 @@ header {
     font-size: 5rem;
     line-height: 50px;
 }
-.ga_terug {
-    color: #EBEBEB;
-}
+
 .portfolio_inner .p_p_d_buttons2 a{
     display: inline-block;
     padding: 0rem 1rem;

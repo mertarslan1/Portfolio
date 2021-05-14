@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/style.css">
 </head>
 <body class="overflow">
@@ -18,9 +20,9 @@
         <a class="logo" href="/"><img src="img/logo.svg" alt="logo"></a>
         <nav>
             <ul class="nav__links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="over.html">Over mij</a></li>
-                <li><a href="leeruitkomsten.html">Leeruitkomsten</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/over/index.html">Over mij</a></li>
+                <li><a href="/leeruitkomsten/index.html">Leeruitkomsten</a></li>
             </ul>
         </nav>
         <p class="menu cta">Menu</p>
@@ -29,9 +31,9 @@
     <div class="overlay">
         <a class="close">&times;</a>
         <div class="overlay__content">
-            <a href="index.html">Home</a>
-            <a href="over.html">Over mij</a>
-            <a href="leeruitkomsten.html">Leeruitkomsten</a>
+            <a href="/index.html">Home</a>
+            <a href="/over/index.html">Over mij</a>
+            <a href="/leeruitkomsten/index.html">Leeruitkomsten</a>
         </div>
     </div>
 
@@ -40,7 +42,7 @@
 
             <div class="p_header">
                 <div class="back_link">
-                    <a href="/leeruitkomsten/interactive-media/index.html">&lt;- Ga terug</a>
+                    <a href="/leeruitkomsten/development/index.html">&lt;- Ga terug</a>
                 </div>
                 <div class="headline">
                     <h1>PoC — Project 1</h1>
@@ -53,7 +55,7 @@
                         <h1>Rock Paper Scissors</h1>
                     </div>
                     <div class="p_p_d_body">
-                        <p>Voor mijn eerste Proof of Concept heb ik in JavaScript een rock paper and scissors spel gemaakt. Aangezien ik nog (bijna) geen ervaring met JavaScript had, heb ik dit d.m.v. een YouTube-tutorial gemaakt. Ik heb in eerste instantie de tutorial stap voor stap gekopïeerd en vervolgens mijn eigen huisstijl (lettertypen, css) toegepast.</p>
+                        <p>Ik heb de PoC gemaakt om een begin met JavaScript te maken, dit heb ik gedaan door op CodeAcademy ten eerste de basis van JavaScript door te nemen en vervolgens een tutorial op YouTube te volgen hoe je een Rock Paper Scissors eigenlijk bouwt met behulp van JavaScript, HTML en CSS. Ook zijn er bepaalde animaties in deze game gebruikt.</p>
                     </div>
                     <div class="p_p_d_buttons">
                         <a href="#">Speel demo</a>
@@ -62,7 +64,7 @@
                 </div>
                 <div class="padd p_p_image">
                     <div class="image">
-                        <img src="https://images.unsplash.com/photo-1620750488165-3b248d29f473?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <img src="/img/Image 1.png">
                     </div>
                 </div>
                 <span class="round_ball"></span>
@@ -70,7 +72,7 @@
             <div class="portfolio_projects">
                 <div class="padd p_p_image">
                     <div class="image">
-                        <img src="https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <img src="/img/CSStest.png">
                     </div>
                 </div>
                 <div class="padd p_p_description">
@@ -78,38 +80,39 @@
                         <h1>Totstandkoming</h1>
                     </div>
                     <div class="p_p_d_body">
-                        <p>Om mijn leeruitkomsten aan te tonen heb ik een interactieve website gemaakt. Deze wordt gebruikt om mijn HTML/CSS/JS aan te tonen voor development, maar ook om mijn overage leeruitkomsten aa nte tonen in interactieve vorm.Ook wordt hier in het kort beschreven wie ik nou eigenlijk ben.</p>
+                        <p>Aangezien ik de Rock Paper Scissors game volgens een tutorial heb gemaakt heb ik gewoon de stappen op chronologische wijze gevolgd, en aangezien dit bij HTML & CSS begon, heb ik eerst de HTML voor mijn game gecreëerd. Dit was geen probleem voor mij aangezien ik al het een en ander van HTML & CSS afweet. De template van de site in CSS is hetzelfde als de video, maar ik heb de vormgeving zelf allemaal gewijzigd. Dit was onder andere een ander lettertype, achtergrond, buttons en animations.  Dit heb ik aan hand van mijn eigen huisstijl gedaan, en ik heb ook de site verfijnd. Eerst was het heel grof en zat er weinig CSS in verwerkt.</p>
                     </div>
                     <div class="p_p_d_buttons">
                     </div>
                 </div>
                 <span class="round_ball"></span>
             </div>
-            <div class="portfolio_projects">
+            <div class="portfolio_projects" data-aos="fade-up">
                 <div class="padd p_p_description">
                     <div class="p_p_d_header">
                         <h1>JavaScript</h1>
                     </div>
                     <div class="p_p_d_body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Aangezien ik nog nooit eerder had gewerkt met JavaScript was het heel wat uitvogelen voor mij. Ik volgde natuurlijk een tutorial maar ik wou ook weten wat precies wat deed en dus moest ik op gegeven momenten bepaalde functies opzoeken, de tutorial was in principe erg duidelijk. Hij legde alles ook uit maar soms was er niet genoeg diepgang in de uitleg. Ik heb o.a. functies zoals .addEventListener leren gebruiken en hoe je bepaalde variabelen (const) aanmaakt en oproept.<br><br>
+                            Het spel kan gespeeld worden door bovenaan op de 'Speel demo' game button te klikken en de code kan bekeken worden door op de 'GitHub' knop te klikken.</p>
                     </div>
                     <div class="p_p_d_buttons">
                     </div>
                 </div>
                 <div class="padd p_p_image">
                     <div class="image">
-                        <img src="https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <img src="/img/JS.png">
                     </div>
                 </div>
                 <span class="round_ball"></span>
             </div>
-            <div class="portfolio_projects">
+            <div class="portfolio_projects" data-aos="fade-up">
                 <div class="padd p_p_description">
                     <div class="p_p_d_header">
                         <h1>Wat heb ik geleerd?</h1>
                     </div>
                     <div class="p_p_d_body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Aangezien ik nog nooit eerder had gewerkt met JavaScript was het heel wat uitvogelen voor mij. Ik volgde natuurlijk een tutorial maar ik wou ook weten wat precies wat deed en dus moest ik op gegeven momenten bepaalde functies opzoeken, de tutorial was in principe erg duidelijk. Hij legde alles ook uit maar soms was er niet genoeg diepgang in de uitleg. Ik heb o.a. functies zoals .addEventListener leren gebruiken en hoe je bepaalde variabelen (const) aanmaakt en oproept.</p>
                     </div>
                 </div>
                 <div class="padd p_p_description">
@@ -117,7 +120,7 @@
                         <h1>Feedback</h1>
                     </div>
                     <div class="p_p_d_body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>Als feedback heb ik te horen gekregen dat het allemaal goed werkte, de style in CSS was ook duidelijk verfijnd. Over de code inhoudelijk zelf heb ik te horen gekregen dat er nog verbeterpunten zijn. Natuurlijk heb ik de code gewoon vanuit de YouTube-tutorial gevolgd, dus alles klopte wel, maar er werden moeilijke functies gebruikt, die ik beter zou kunnen vermijden op dit niveau, zei Bernd-Jan. Voor de rest was de HTML/CSS in orde en gaf het spel een fijne speelervaring.</p>
                     </div>
                 </div>
                 <span class="round_ball"></span>
@@ -126,7 +129,7 @@
         </div>
     </div>
 
-    <div class="next_page">
+    <div class="next_page" data-aos="fade-up">
         <div class="header">
             <h1>Volgend project</h1>
         </div>
@@ -137,5 +140,9 @@
     
     
     <script type="text/javascript" src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
