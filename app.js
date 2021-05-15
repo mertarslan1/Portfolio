@@ -22,6 +22,5 @@ if(document.querySelector(".animate")){
   });
 }
 
-
 //aos
 AOS.init();

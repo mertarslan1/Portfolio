@@ -493,41 +493,31 @@ header {
     .overlay a {
         font-size: 20px;
     }
-
     .overlay .close {
         font-size: 40px;
         top: 15px;
         right: 35px;
     }
 }
-
 @media only screen and (max-width: 800px) {
-
     .nav__links,
     .cta {
         display: none;
     }
-
     .menu {
         display: initial;
     }
 }
-
-/* animatie */
-
 @keyframes transitionIn {
     from {
         opacity: 0;
         transform: rotateX(-16deg);
     }
-
     to {
         opacity: 1;
         transform: rotateX(0);
     }
 }
-
-
 .portfolio_container{
     width: 100%;
     padding: 0px 10%;
@@ -643,11 +633,12 @@ header {
     transform: scale(1.03);
 }
 .next_page{
-    padding: 5rem 0rem;
+    padding: 6rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
 }
 .next_page .header{
     margin-bottom: 1rem;
