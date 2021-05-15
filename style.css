@@ -9,11 +9,15 @@
 
 body {
     font-family: 'Poppins';
-    overflow: hidden;
 }
 ::-webkit-scrollbar{
     width: 7px;
 }
+
+.overflow_hidden{
+    overflow: hidden;
+}
+
 ::-webkit-scrollbar-track{
     border-radius: 15px;
     box-shadow: inset 0 0 5px #171931;
@@ -41,15 +45,6 @@ header {
     background-color: #1C1E3A;
 }
 
-.overflow {
-    overflow: auto;
-    height: 2720px;
-}
-
-.overflow2 {
-    overflow: auto;
-    height: 3000px;
-}
 
 .logo {
     cursor: pointer;
@@ -574,6 +569,8 @@ header {
     box-shadow: 0px 0px 30px 20px rgba(255, 255, 255, 0.1);
     
 }
+
+
 .portfolio_inner .p_p_description,.portfolio_inner .p_p_image{
     width: 50%;
     animation: transitionIn 0.75s;

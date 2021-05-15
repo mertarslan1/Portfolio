@@ -13,13 +13,15 @@ menuClose.addEventListener("click", () => {
 });
 
 // text
-var typed = new Typed(".animate", {
-  strings: ["student", "designer", "gamer", "freelancer"],
-  typeSpeed: 100,
-  backSpeed: 60,
-  loop: true
-});
+if(document.querySelector(".animate")){
+  var typed = new Typed(".animate", {
+    strings: ["student", "designer", "gamer", "freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+}
+
 
 //aos
 AOS.init();
-
