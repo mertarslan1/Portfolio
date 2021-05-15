@@ -679,6 +679,18 @@ header {
     background-color: #f0c664;
     transform: scale(1.03);
 }
+
+
+p a:link {
+    transition: .3s;
+}
+p a:visited {
+    color: #DCAA33;
+}
+p a:hover{
+    color: #f0c664;
+}
+
 @media screen and (max-width:1400px) {
     .portfolio_inner .p_p_d_body{
         padding-right: 0vw;
