@@ -46,8 +46,18 @@ header {
 }
 
 
-.logo {
+.logo img{
     cursor: pointer;
+    margin-left: -95px;
+    margin-top: -10px;
+    width: 15%;
+    transition: .3s;
+    animation: transitionIn 0.75s;
+
+}
+
+.logo img:hover{
+    transform: scale(1.05);
 }
 
 .nav__links a,
