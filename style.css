@@ -668,6 +668,13 @@ header {
     transform: scale(1.03);
 }
 
+.image{
+    transition: .5s;
+}
+
+.image:hover{
+    transform: scale(1.015)
+}
 
 p a:link {
     transition: .3s;
